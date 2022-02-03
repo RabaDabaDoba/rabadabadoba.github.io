@@ -12,7 +12,7 @@ FINAL=$DATEL"-"$TITLESTRING".md";
 touch $FINAL;
 echo "---" >> $FINAL;
 echo "title: "$title >> $FINAL;
-echo "date: "$DATEP" +0200" >> $FINAL;
+echo "date: "$DATEP >> $FINAL;
 echo "layout: "$layout >> $FINAL;
 echo "---" >> $FINAL;
 echo $FINAL;
