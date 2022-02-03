@@ -39,4 +39,5 @@ defaults:
       path: ""
       type: post
     values:
-      tags: Other
+      tags: Post
+      categories: Code XR VR Report Blog Unity 3D_Model Optimization

@@ -1,8 +1,9 @@
 ---
 title: Jekyll post generation script
-date: 2022-02-03 13:22:32 +0200
+date: '2022-02-03 13:22:32 +0200'
 layout: post
-categories: Programing Script
+categories: Code Blog
+slug: jekyll-post-generation-script
 ---
 
 ## Making life easier
@@ -31,3 +32,4 @@ echo "layout: "$layout >> $FINAL;
 echo "---" >> $FINAL;
 echo $FINAL;
 {% endhighlight %}
+

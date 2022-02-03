@@ -73,6 +73,14 @@ a.tag {
     text-decoration: underline;
   }
   
+  .default {
+    background-color: slategray;
+  }
+
+  .code {
+    background-color: royalblue;
+  }
+
   .yellow {
       background-color: goldenrod;
   }
