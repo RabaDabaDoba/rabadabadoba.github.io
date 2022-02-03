@@ -20,6 +20,8 @@ email: "robindah@kth.se"
 #########################################################################################
 theme: "minima"
 
+permalink: /:categories/:title/
+
 rss: rss
 
 kramdown:
@@ -40,4 +42,4 @@ defaults:
       type: post
     values:
       tags: Post
-      categories: Code XR VR Report Blog Unity 3D_Model Optimization
+      categories: [Code, XR, VR, Report, Blog, Unity, 3D Model, Optimization]
