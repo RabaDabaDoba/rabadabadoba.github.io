@@ -17,13 +17,14 @@ layout: default
       {%- endif -%}</p>
   </header>
   <div class="main">
-    <a href="http://lostthecow.com" class="tag yellow"> Javascript</a>
-          <a href="http://lostthecow.com" class="tag red"> Ruby</a>
-    
-                <a href="http://lostthecow.com" class="tag blue"> CSS</a>
-    
-    
-                      <a href="http://lostthecow.com" class="tag green"> HTML</a>
+    <a href="" class="tag yellow"> Javascript</a>
+    <a href="" class="tag red"> Ruby</a>
+    <a href="" class="tag blue"> CSS</a>
+    <a href="" class="tag green"> HTML</a>
+  </div>
+  <div class="main">
+    {% for category in post.categories %}
+    <a href="" class="tag red">{{category}}</a>
   </div>
 
   <div class="share-links">
