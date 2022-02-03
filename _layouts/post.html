@@ -17,12 +17,6 @@ layout: default
       {%- endif -%}</p>
   </header>
   <div class="main">
-    <a href="" class="tag yellow"> Javascript</a>
-    <a href="" class="tag red"> Ruby</a>
-    <a href="" class="tag blue"> CSS</a>
-    <a href="" class="tag green"> HTML</a>
-  </div>
-  <div class="main">
     {% for category in page.categories %}
     <a href="" class="tag red">{{ category }}</a>
     {% endfor %}

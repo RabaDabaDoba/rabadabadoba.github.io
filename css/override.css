@@ -53,7 +53,9 @@ hr {
   text-decoration: none;
 }
 
-
+a.tag {
+  color: white;
+}
 .tag {
   margin: 0 2px;
   padding: 4px 10px;
@@ -63,6 +65,7 @@ hr {
   font-family: sans-serif;
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 2px;
    
   }
   
