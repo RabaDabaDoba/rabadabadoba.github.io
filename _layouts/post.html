@@ -17,13 +17,9 @@ layout: default
       {%- endif -%}</p>
   </header>
   <div class="main">
-    {% if post %}
-    {% assign categories = post.categories %}
     {% for category in categories %}
     <a class="tag red" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-    {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
-    {% endif %}
   </div>
 
   <div class="share-links">
