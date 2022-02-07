@@ -13,13 +13,20 @@ layout: default
       </time>
       {% assign author = page.author | default: site.author %}
       {%- if author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-      {%- endif -%}</p>
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+          itemprop="name">{{ author }}</span></span>
+      {%- endif -%}
+    </p>
   </header>
   <div class="main">
+    {% if post %}
     {% assign categories = page.category %}
+    {% else %}
+    {% assign categories = [None] %}
+    {% endif %}
     {% for item in categories %}
-      <a class="tag red" href="">{{ tag }}</a>
+    <a class="tag red" href="{{site.baseurl}}/categories/#{{item|slugize}}">{{ item }}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
   </div>
 
