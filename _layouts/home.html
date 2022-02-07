@@ -16,7 +16,15 @@ layout: default
           itemprop="name">{{ author }}</span></span>
       {%- endif -%}
     </p>
+    <div class="main">
+        {% assign categories = post.category %}
+        
+      {% for category in categories %}
+       <a class="tag red" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{ category }}</a>
+      {% endfor %}
+    </div>
   </header>
+  
 {%endfor%}
 
 
