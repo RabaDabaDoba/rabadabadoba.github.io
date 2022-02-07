@@ -5,6 +5,8 @@ layout: post
 categories: [Code, Blog]
 slug: jekyll-post-generation-script
 tags: [milk, pumpkin pie, eggs, juice]
+category: [a, b pie, c, d]
+
 ---
 
 ## Making life easier
