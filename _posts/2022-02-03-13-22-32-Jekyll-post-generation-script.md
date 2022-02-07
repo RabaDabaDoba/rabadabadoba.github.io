@@ -2,7 +2,7 @@
 title: Jekyll post generation script
 date: '2022-02-03 13:22:32 +0200'
 layout: post
-category: [Code, Blog]
+category: [WebDev, Blog, Shell]
 slug: jekyll-post-generation-script
 
 ---
