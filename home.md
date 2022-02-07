@@ -1,4 +1,8 @@
 ---
-layout: home
+layout: default
 ---
-<h1>This is home!</h1>
+{% for post in site.posts %}
+{{ post.title }}
+{{content}} 
+Read More 
+{% endfor %}
