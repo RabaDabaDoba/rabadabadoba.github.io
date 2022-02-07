@@ -42,4 +42,4 @@ defaults:
       type: post
     values:
       tags: Post
-      categories: [Code, XR, VR, Report, Blog, Unity, 3D Model, Optimization]
+      #categories: [Code, XR, VR, Report, Blog, Unity, 3D Model, Optimization]
