@@ -2,4 +2,6 @@
 layout: default
 ---
 
-<h1>gone</h1>
+{% for post in site.posts %}
+<h1>{{ post.title }}</h1>
+{%endfor%}
