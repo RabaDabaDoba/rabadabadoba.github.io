@@ -42,4 +42,5 @@ defaults:
       type: post
     values:
       tags: Post
+      image: true
       #categories: [Code, XR, VR, Report, Blog, Unity, 3D Model, Optimization]
