@@ -9,7 +9,7 @@ slug: jekyll-post-generation-script
 
 ## Making life easier
 
-Since I want to be able to make these post as easy as possible I decided to make a script to create posts. I'm still learning on how to use `Markdown` together with `Jekyll`, so this blog/website will have a lot of updates so don't get used to anything yet.
+Since I want to be able to make these post as easy as possible I decided to make a script to create posts. I'm still learning on how to use `Markdown` together with `Jekyll` so this blog/website will have a lot of updates so don't get used to anything yet.
 
 ## The beautiful code
 
