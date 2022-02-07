@@ -17,8 +17,13 @@ layout: default
       {%- endif -%}</p>
   </header>
   <div class="main">
-    {% for category in page.categories %}
+    {% assign categories = page.categories%}
+    {%- if author -%}
+    {% for category in categories %}
     <a class="tag red" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+    {%- else -%}
+    <h1>Sucker</h1>
+    {%- endif -%}
     {% endfor %}
   </div>
 
