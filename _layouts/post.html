@@ -16,10 +16,10 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author }}</span></span>
       {%- endif -%}</p>
   </header>
-  <div class="main">}
-    {% assign items = page.categories%}
+  <div class="main">
+    {% assign items = page.categories %}
     {% for item in items %}
-    <a class="tag red" href="">{{ item }}</a>
+      <a class="tag red" href="">{{ item }}</a>
     {% endfor %}
   </div>
 
