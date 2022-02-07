@@ -20,13 +20,12 @@ layout: default
   </header>
   <div class="main">
     {% if post %}
-    {% assign categories = page.category %}
+      {% assign categories = page.category %}
     {% else %}
-    {% assign categories = [None] %}
+      {% assign categories = [None] %}
     {% endif %}
     {% for item in categories %}
-    <a class="tag red" href="{{site.baseurl}}/categories/#{{item|slugize}}">{{ item }}</a>
-    {% unless forloop.last %}&nbsp;{% endunless %}
+     <a class="tag red" href="{{site.baseurl}}/categories/#{{item|slugize}}">{{ item }}</a>
     {% endfor %}
   </div>
 
