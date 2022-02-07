@@ -5,7 +5,4 @@ info: [https://jekyllcodex.org/without-plugin/image-gallery/#,https://jekyllcode
 ---
 ## Gallery
 
-
-
 {% include image-gallery.html folder="/assets/images" %}
-
