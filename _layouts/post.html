@@ -17,7 +17,7 @@ layout: default
       {%- endif -%}</p>
   </header>
   <div class="main">}
-    {% assign temp = [kalle,anna,bert] %}
+    {% assign temp = [ Kalle , Anna , bert ] %}
     {% for category in temp %}
     <a class="tag red" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
     {% endfor %}
