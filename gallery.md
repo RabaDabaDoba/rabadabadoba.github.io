@@ -1,6 +1,7 @@
 ---
 layout: page
-info: https://jekyllcodex.org/without-plugin/image-gallery/#
+info: [https://jekyllcodex.org/without-plugin/image-gallery/#,https://jekyllcodex.org/without-plugin/lightbox/#]
+
 ---
 ## Gallery
 
@@ -9,4 +10,3 @@ info: https://jekyllcodex.org/without-plugin/image-gallery/#
 
 {% include image-gallery.html folder="/assets/images" %}
 
-## Another gallery
