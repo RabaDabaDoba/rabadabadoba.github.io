@@ -19,13 +19,11 @@ layout: default
     </p>
   </header>
   <div class="main">
-    {% if post %}
       {% assign categories = page.category %}
-    {% else %}
-      {% assign categories = [None] %}
-    {% endif %}
-    {% for item in categories %}
-     <a class="tag red" href="{{site.baseurl}}/categories/#{{item|slugize}}">{{ item }}</a>
+      
+
+    {% for category in categories %}
+     <a class="tag red" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{ category }}</a>
     {% endfor %}
   </div>
 
