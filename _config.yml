@@ -38,7 +38,7 @@ titles_from_headings:
 
 defaults:
   - scope:
-      path: "assets/images"
+      path: ""
       type: post
     values:
       tags: Post
