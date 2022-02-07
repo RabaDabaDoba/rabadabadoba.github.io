@@ -19,13 +19,7 @@ layout: default
   <div class="main">}
     {% assign items = page.categories%}
     {% for item in items %}
-    <a class="tag red" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{ asd }}</a>
-    {% endfor %}
-    {% for category in page.categories %}
-    <a class="tag green" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{ asd }}</a>
-    {% endfor %}
-    {% for category in site.categories %}
-    <a class="tag blue" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{ asd }}</a>
+    <a class="tag red" href="">{{ item }}</a>
     {% endfor %}
   </div>
 
