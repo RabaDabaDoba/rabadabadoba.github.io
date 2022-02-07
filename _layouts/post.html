@@ -17,8 +17,8 @@ layout: default
       {%- endif -%}</p>
   </header>
   <div class="main">
-    {% assign tags = page.category %}
-    {% for tag in tags %}
+    {% assign categories = page.category %}
+    {% for item in categories %}
       <a class="tag red" href="">{{ tag }}</a>
     {% endfor %}
   </div>

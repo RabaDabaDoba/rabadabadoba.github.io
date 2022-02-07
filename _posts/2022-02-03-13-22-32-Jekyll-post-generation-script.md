@@ -2,10 +2,8 @@
 title: Jekyll post generation script
 date: '2022-02-03 13:22:32 +0200'
 layout: post
-categories: [Code, Blog]
+category: [Code, Blog]
 slug: jekyll-post-generation-script
-tags: [milk, pumpkin pie, eggs, juice]
-category: [a, b pie, c, d]
 
 ---
 
