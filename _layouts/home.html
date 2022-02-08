@@ -5,8 +5,14 @@ layout: default
 <link href="/css/custom.css" rel="stylesheet" type="text/css">
 
 <div class="row">
-  <div class="col-md-6 themed-grid-col">.col-md-6</div>
-  <div class="col-md-6 themed-grid-col">.col-md-6</div>
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
 </div>
 
 {% for post in site.posts %}
