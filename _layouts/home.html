@@ -9,7 +9,7 @@ layout: default
     <h2 class="post-title p-name">Most recent posts:</h2>
     {% for post in site.posts limit: 4 %}
 <header class="post-header">
-    <h4 class="post-title p-name smaller effect-underline" itemprop="name headline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h4>
+    <h4 class="post-title p-name smaller" itemprop="name headline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h4>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y %H:%M" -%}
