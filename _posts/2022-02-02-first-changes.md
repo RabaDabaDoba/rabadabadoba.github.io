@@ -4,6 +4,7 @@ date: '2022-02-02 17:41:12 +0200'
 layout: post
 category: [Blog]
 slug: first-changes
+permalink: /:categories/:title/
 ---
 
 ## Introduction
