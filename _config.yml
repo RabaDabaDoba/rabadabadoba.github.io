@@ -20,7 +20,7 @@ email: "robindah@kth.se"
 #########################################################################################
 theme: "minima"
 
-permalink: /:categories/:title/
+#permalink: /:categories/:title/
 
 rss: rss
 
