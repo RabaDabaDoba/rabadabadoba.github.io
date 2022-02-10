@@ -2,10 +2,14 @@
 layout: default
 ---
 <link href="/css/override.css" rel="stylesheet" type="text/css">
+<link href="/css/custom.css" rel="stylesheet" type="text/css">
 
-{% for post in site.posts %}
+<div class="row">
+  <div class="column">
+    <h2 class="post-title p-name">Most recent posts:</h2>
+    {% for post in site.posts limit: 4 %}
 <header class="post-header">
-    <h4 class="post-title p-name" itemprop="name headline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h4>
+    <h4 class="post-title p-name smaller effect-underline" itemprop="name headline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h4>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y %H:%M" -%}
@@ -27,6 +31,14 @@ layout: default
   </header>
 
 {%endfor%}
+  </div>
+  <div class="column">
+    <h3>Hejsan!</h3>
+    <p>Välkommen till min blog!</p>
+  </div>
+</div>
 
 
-<blockquote class="trello-card"><a href="https:&#x2F;&#x2F;trello.com&#x2F;c&#x2F;tSmg0g8K&#x2F;14-untitled">‎‎‎‎‎</a></blockquote><script src="https://p.trellocdn.com/embed.min.js"></script>
+
+<!--<blockquote class="trello-card"><a href="https:&#x2F;&#x2F;trello.com&#x2F;c&#x2F;tSmg0g8K&#x2F;14-untitled">‎‎‎‎‎</a></blockquote><script src="https://p.trellocdn.com/embed.min.js"></script>
+-->
