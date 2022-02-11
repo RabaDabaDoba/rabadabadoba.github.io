@@ -121,3 +121,11 @@ a.tag {
   .webdev {
       background-color: #df2d4f;
   }
+
+  .general {
+      background-color: burlywood;
+  }
+
+  .blog {
+    background-color: lightskyblue;
+}
