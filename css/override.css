@@ -48,55 +48,9 @@ hr {
   opacity: 0.3;
 }
 
-
-/* Own code*/
-/* TAGS */
-.main {
-  font-weight: bold;
-  font-family: sans-serif;
-  text-decoration: none;
+.post-title{
+  letter-spacing: -1px;
+  line-height: 1;
+  font-weight: 300;
 }
 
-a.tag {
-  color: white;
-}
-.tag {
-  margin: 0 2px;
-  padding: 4px 10px;
-  color: #fff;
-  background: #999;
-  font-size: 80%;
-  font-family: sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 2px;
-   
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .default {
-    background-color: slategray;
-  }
-
-  .code {
-    background-color: royalblue;
-  }
-
-  .yellow {
-      background-color: goldenrod;
-  }
-  
-  .blue {
-      background-color: royalblue;
-  }
-  
-  .green {
-      background-color: seagreen;
-  }
-  
-  .red {
-      background-color: #df2d4f;
-  }
