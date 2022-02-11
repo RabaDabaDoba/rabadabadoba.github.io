@@ -1,8 +1,10 @@
 .smaller {
-    font-size: 2vh !important;
+  font-size:calc(12px + 1.5vw);
+    
 }
 .medium {
-  font-size: 3vh !important;
+  font-size:calc(18px + 1.5vw);
+
 }
 
 /*effect-underline*/
