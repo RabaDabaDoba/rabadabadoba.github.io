@@ -2,6 +2,7 @@
 title: Front page changes
 date: '2022-02-10 10:40:31 +0200'
 layout: post
+category: [Blog, WebDev]
 slug: front-page-changes
 ---
 
