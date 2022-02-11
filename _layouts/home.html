@@ -9,7 +9,7 @@ layout: default
     <h3 class="smaller post-title p-name">Most recent posts:</h3>
     {% for post in site.posts limit: 3 %}
 <header class="post-header">
-    <h4 class="post-title p-name" itemprop="name headline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h4>
+    <h4 class="smaller post-title p-name" itemprop="name headline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h4>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y %H:%M" -%}
@@ -33,13 +33,11 @@ layout: default
 {%endfor%}
   </div>
   <div class="column">
-    <div class="card">
       <img src="https://avatars.githubusercontent.com/u/25754341?v=4" alt="Jane" style="width:100%">
       <div class="container">
         <h3>Welcome to my blog!</h3>
         <p>My name is Robin Dahlkvist and this is my blog about my master thesis project at FLSC.</p>
       </div>
-    </div>
   </div>
 </div>
 
