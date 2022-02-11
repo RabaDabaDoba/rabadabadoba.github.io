@@ -1,8 +1,8 @@
 .smaller {
-    font-size: 3vh !important;
+    font-size: 2vh !important;
 }
 .medium {
-  font-size: 4vh !important;
+  font-size: 3vh !important;
 }
 
 /*effect-underline*/
@@ -66,6 +66,7 @@ a.effect-underline:hover:after {
   border-radius: 3px;
   width: 100%;
   border: 1px solid lightgray;
+  margin-bottom: 30px;
 }
 
 
