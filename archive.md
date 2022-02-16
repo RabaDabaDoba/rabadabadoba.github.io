@@ -9,7 +9,7 @@ slug: blog-archive
   <ul>
     {% for post in tag[1] %}
       <li><a href="{{ post.url }}">{{ post.date | date: "%B %Y %d" }} - {{ post.title }}</a>
-      {% for category in categories %}
+      {% for category in post.categories %}
        <a class="tag {{ category | downcase }}" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{ category }}</a>
       {% endfor %}
       </li>
